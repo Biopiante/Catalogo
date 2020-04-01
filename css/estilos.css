@@ -89,9 +89,14 @@ body{
 
 .products-list .product-item .p-3{
 	width: 100%;
-	border-left: solid 2px rgb(213, 247, 77);
+	/* border-left: solid 2px rgb(213, 247, 77);
 	border-right: solid 2px rgb(213, 247, 77);
-	border-bottom: solid 2px rgb(213, 247, 77);
+	border-bottom: solid 2px rgb(213, 247, 77); */
+
+	border-left: solid 2px rgb(138, 40, 29);
+    border-right: solid 2px rgb(138, 40, 29);
+	border-bottom: solid 2px rgb(138, 40, 29);
+
 	border-radius: 4px 4px 4px 4px;
 
 }
@@ -99,9 +104,13 @@ body{
 
 .products-list .product-item img{
 	width: 100%;
-	border-left: solid 2px rgb(213, 247, 77);
+	/* border-left: solid 2px rgb(213, 247, 77);
 	border-right: solid 2px rgb(213, 247, 77);
-	border-top: solid 2px rgb(213, 247, 77);
+	border-top: solid 2px rgb(213, 247, 77); */
+	border-left: solid 2px rgb(138, 40, 29);
+    border-right: solid 2px rgb(138, 40, 29);
+	border-top: solid 2px rgb(138, 40, 29);
+	
 	border-radius: 4px 4px 4px 4px;
 
 }
@@ -341,7 +350,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bbda3f",endCo
   .ribbon-edge-topleft,
   .ribbon-edge-bottomleft {
 	left: -20px;
-	border-color: transparent #99c transparent transparent;
+	border-color: transparent #8b2f1f  transparent transparent;
 }
 
   .ribbon-edge-topleft {
@@ -355,7 +364,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bbda3f",endCo
   .ribbon-edge-topright,
   .ribbon-edge-bottomright {
 	left: 100%;
-    border-color: transparent transparent transparent #99c;
+	border-color: transparent transparent 
+	transparent #8b2f1f ;
 }
 
   .ribbon-edge-topright {
