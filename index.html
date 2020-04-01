@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <title>Collapsible sidebar using Bootstrap 4</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="style5.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+
+
+    <style type="text/css">
+        .modal-footer{
+            border-radius: 8px;
+            width: 100%;
+            color: black;
+            position: absolute;
+            z-index: 100;
+            background-color: rgba(255, 255, 255, 0.81);
+            bottom: 0;
+            text-align: center;
+            font-size: 21px;
+        }
+  
+      .imagen{
+        width: auto;
+        height: auto;
+      }
+      .imagen:hover{
+        cursor: pointer;
+        width: 100%;
+      }
+      .cerrar{
+        color: darkred;
+        border-radius: 6px;
+        right: 0;
+        font-size: 40px;
+        position: absolute;
+        z-index: 100;
+        padding: 12px;
+      }
+  
+      .cerrar:hover{
+        font-size: 50px;
+        cursor: pointer;
+      }
+      .category_item{
+    border-bottom: solid 1px #fff !important;
+    margin-right: 9px;
+    margin-left: 9px;
+}
+
+  
+    </style>
+
+
+</head>
+
+<body>
+    <div id="mimodal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- <span class="glyphicon glyphicon-ban-circle cerrar" data-dismiss="modal"></span> -->
+            <img src="" class="modal-content recibir-imagen" width="100%" height="100%">
+            
+            <!-- <div class="modal-footer">
+              <p><strong class="texto-imagen"></strong></p>
+            </div> -->
+        </div>
+      </div>
+
+    <div class="wrapper">
+      
+        <!-- Sidebar Holder -->
+        <nav id="sidebar" class="bg-1">
+            <div class="sidebar-header ">
+            </br>
+            </br>
+             
+
+          </div>
+
+            <ul class="list-unstyled components">
+                <!-- <li>
+                    <a href="#">About</a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li> -->
+                <li>
+                  <h4 class="text-center">
+                    Categorías
+                  </h4>
+                  <br>
+
+                </li>
+                <li>
+                    <a href="#" class="category_item" category="all">Todo</a>
+                </li>
+                <li>
+                    <a href="#" class="category_item" category="cremas">Cremas</a>
+                </li>
+                <li>
+                  <a href="#" class="category_item" category="aceites">Aceites</a>
+                </li>
+                 <li>
+                <a href="#" class="category_item" category="jabones">Jabones</a>
+                </li>
+                <li>
+                  <a href="#" class="category_item" category="pomadas">Pomadas</a>
+                  </li>
+                  <li>
+                    <a href="#" class="category_item" category="bucal">Higiene dental</a>
+                    </li>
+                    <li>
+                      <a href="#" class="category_item" category="shampoo">Jungla Capilar</a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="category_item" category="tonicos">Tónicos</a>
+                        </li>
+                        <li>
+                          <a href="#" class="category_item" category="geles">Geles Aloe</a>
+                          </li>
+            </ul>
+
+
+
+            <div class="logo"> 
+              <img class="logo_img text-center" src="./logos/logo_bg_transparente_final.png" alt=""> <span></span> 
+              <h3 class="text-center">Biopiante</h3>
+            </div>
+
+
+        </nav>
+
+        <!-- Page Content Holder -->
+
+        <button type="button" id="sidebarCollapse" class="navbar-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+      </button>
+<!--Carousel Wrapper-->
+
+    <!--Slides-->
+
+    <div class="scrollmenu">
+      <section class="products-list">
+        <div class="row" id="crema">
+          </div>
+          <div class="row" id="aceite">
+          </div>
+          <div class="row" id="jabon">
+          </div>
+          <div class="row" id="pomada">
+          </div>
+          <div class="row" id="bucal">
+          </div>
+          <div class="row" id="shampoo">
+          </div>
+          <div class="row" id="tonico">
+          </div>
+          <div class="row" id="gel">
+          </div>
+
+
+
+
+        </div>
+       
+      </section>
+  </div>
+
+  
+  
+   
+    <!--/.Slides-->
+
+        
+
+</div>
+  <!--/.Carousel Wrapper-->
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+    <script type="text/javascript">
+
+    
+      </script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+      $('#sidebarCollapse').on('click', function () {
+          $('#sidebar').toggleClass('active');
+          $(this).toggleClass('active');
+      });
+
+
+fetch('./datos/cremas.json').then(function(respuesta) {
+  return respuesta.json();
+}).then(function(j) {
+  console.log(j);
+console.log('length '+j.crema.length);
+
+for (let value of j.crema) {
+
+var data=`<div class="product-item " category="cremas">
+         <img class="imagen" src="`+value.imagen+`" alt="" >
+              <div class="ribbon-wrapper">
+              <div class="ribbon-front">
+            <a class="px-1" href="#">`+value.titulo+`</a>
+              </div>
+             <div class="ribbon-edge-topleft"></div>
+             <div class="ribbon-edge-topright"></div>
+           <div class="ribbon-edge-bottomleft"></div>
+              <div class="ribbon-edge-bottomright"></div>
+              <div class="ribbon-back-left"></div>
+              <div class="ribbon-back-right"></div>
+            </div>
+            <div class="p-3 target2"> 
+        <h4 class="py-2">`+value.precio+`</h4>
+            <div class="">
+              <span>`+value.descripcion+`</span>
+              <br><span class="font-weight-bold">USO: 
+                </span> `+value.uso+`</span>
+               </div>
+             </div>
+           </div>
+        </div>`;
+ $("#crema").append(data);
+    data='';
+}
+  console.log("content.crema[0].titulo= "+j.crema[0].titulo);
+
+}).catch(function(err) {
+  console.log("Error"+err);
+});
+
+// -------------------------------------------------
+// aceites
+
+fetch('./datos/aceites.json').then(function(respuesta) {
+  return respuesta.json();
+}).then(function(j) {
+  console.log(j);
+console.log('length '+j.aceite.length);
+
+for (let value of j.aceite) {
+
+var data=`<div class="product-item " category="aceites"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#">`+value.titulo+`</a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
+ $("#aceite").append(data);
+    data='';
+}
+  console.log("content.crema[0].titulo= "+j.aceite[0].titulo);
+
+}).catch(function(err) {
+  console.log("Error aceite"+err);
+});
+
+// -------------------------------------------------
+// jabones
+
+fetch('./datos/jabones.json').then(function(respuesta) {
+  return respuesta.json();
+}).then(function(j) {
+  console.log(j);
+console.log('length '+j.jabon.length);
+
+for (let value of j.jabon) {
+
+var data=`<div class="product-item " category="jabones"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#">`+value.titulo+`</a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
+ $("#jabon").append(data);
+    data='';
+}
+  console.log("content.crema[0].titulo= "+j.jabon[0].titulo);
+
+}).catch(function(err) {
+  console.log("Error jabon"+err);
+});
+
+
+// -------------------------------------------------
+// pomadas
+
+fetch('./datos/pomadas.json').then(function(respuesta) {
+  return respuesta.json();
+}).then(function(j) {
+  console.log(j);
+console.log('length '+j.pomada.length);
+
+for (let value of j.pomada) {
+var data=`<div class="product-item " category="pomadas"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#">`+value.titulo+`</a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
+ $("#pomada").append(data);
+    data='';
+}
+  console.log("content.crema[0].titulo= "+j.pomada[0].titulo);
+}).catch(function(err) {
+  console.log("Error pomada"+err);
+});
+
+// -------------------------------------------------
+// bucal
+
+fetch('./datos/bucal.json').then(function(respuesta) {
+  return respuesta.json();
+}).then(function(j) {
+  console.log(j);
+console.log('length '+j.bucal.length);
+
+for (let value of j.bucal) {
+var data=`<div class="product-item " category="bucal"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#">`+value.titulo+`</a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
+ $("#bucal").append(data);
+    data='';
+}
+  console.log("content.crema[0].titulo= "+j.bucal[0].titulo);
+}).catch(function(err) {
+  console.log("Error bucal"+err);
+});
+
+
+
+// -------------------------------------------------
+// shampoo
+
+fetch('./datos/shampoo.json').then(function(respuesta) {
+  return respuesta.json();
+}).then(function(j) {
+  console.log(j);
+console.log('length '+j.shampoo.length);
+
+for (let value of j.shampoo) {
+var data=`<div class="product-item " category="shampoo"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#">`+value.titulo+`</a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
+ $("#shampoo").append(data);
+    data='';
+}
+  console.log("content.crema[0].titulo= "+j.shampoo[0].titulo);
+}).catch(function(err) {
+  console.log("Error shampoo"+err);
+});
+// -------------------------------------------------
+// tonicos
+
+fetch('./datos/tonicos.json').then(function(respuesta) {
+  return respuesta.json();
+}).then(function(j) {
+
+for (let value of j.tonico) {
+var data=`<div class="product-item " category="tonicos"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#">`+value.titulo+`</a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
+ $("#tonico").append(data);
+    data='';
+}
+  console.log("content.crema[0].titulo= "+j.tonico[0].titulo);
+}).catch(function(err) {
+  console.log("Error tonico"+err);
+});
+
+
+// -------------------------------------------------
+// geles
+
+fetch('./datos/geles.json').then(function(respuesta) {
+  return respuesta.json();
+}).then(function(j) {
+
+for (let value of j.gel) {
+var data=`<div class="product-item " category="geles"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#">`+value.titulo+`</a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
+ $("#gel").append(data);
+    data='';
+}
+  console.log("content.crema[0].titulo= "+j.gel[0].titulo);
+}).catch(function(err) {
+  console.log("Error gel"+err);
+});
+
+
+$('.row').on( "click", '.imagen',function(){
+  
+  var imagen1=$(this).attr('src');
+              var titleimagen=$(this).attr('title');
+      
+              if (imagen1==""){
+      
+                $('.recibir-imagen').attr('src','http://www.51allout.co.uk/wp-content/uploads/2012/02/Image-not-found.gif');
+                $('#mimodal').modal();
+      
+              }else{
+                  $('.recibir-imagen').attr('src',imagen1);
+                  $('.texto-imagen').text(titleimagen);
+                  $('#mimodal').modal();
+            }
+
+})
+
+
+
+
+
+// $(".imagen").click(function(){
+//               var imagen1=$(this).attr('src');
+//               var titleimagen=$(this).attr('title');
+      
+//               if (imagen1==""){
+      
+//                 $('.recibir-imagen').attr('src','http://www.51allout.co.uk/wp-content/uploads/2012/02/Image-not-found.gif');
+//                 $('#mimodal').modal();
+      
+//               }else{
+//                   $('.recibir-imagen').attr('src',imagen1);
+//                   $('.texto-imagen').text(titleimagen);
+//                   $('#mimodal').modal();
+//             }
+//           });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  });
+</script>
+
+
+
+
+
+
+<!-- Footer -->
+
+
+<!-- <div class="row">
+  <div style="	margin-left: auto;
+  margin-right: auto; margin-top: 7px;color: beige;" class="">
+    Biopiante
+  </div>
+</div> -->
+
+<!-- Footer -->
+<footer class="bg-2">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li>
+      <h3 style="color: white; margin-right: 20px;">
+Contáctenos
+      </h3>  
+      </li>
+      <li>
+
+        <a href="http://www.facebook.com/biopiante.cosmetica" class="btn-floating btn-lg btn-fb" type="button" role="button" target="blank"><i class="fab fa-facebook-f"></i></a>
+        
+        <a  href="https://www.instagram.com/biopiantecosmetica/"  class="btn-floating btn-lg btn-fb" type="button" role="button" target="blank"><i class="fab fa-instagram"></i></a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <!-- <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div> -->
+  <!-- Copyright -->
+
+<!-- Footer -->
+
+</footer>
+<!-- Footer -->
+
+
+</body>
+
+
+
+</html>
