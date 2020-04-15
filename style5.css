@@ -3,9 +3,23 @@
 */
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
+* {
+    /* font-family: 'Comic Neue', cursive; */
+    /* font-family: 'Gotu', sans-serif; */
+    /* font-family: 'Indie Flower', cursive; */
+     font-family: 'Poppins', sans-serif; 
+    
+}
+h3, h4{
+    /* font-family: 'Comic Neue', cursive; */
+    /* font-family: 'Gotu', sans-serif; */
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Poppins', sans-serif; 
+}
 
 body {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+
     background: #ffffff;
 }
 
