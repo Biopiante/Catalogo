@@ -52,13 +52,6 @@
             "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/2_7_Aceite_Adelgazante_Tejido_Adiposo.png"
         },
         {
-            "titulo": "Aceite Adelgazante Tejido Adiposo",
-            "precio": "$ 20.000",
-            "descripcion": "El Sorprendente Aceite adelgazante que te remueve el TEJIDO ADIPOSO a través de la activación del sistema circulatorio. Dificulta la absorción de grasas,  disminuye su acumulación y favorece su degradación. ",
-            "uso":"Se usa en mínimas cantidades producto puro, se recomienda exfoliación durante el baño",
-            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/2_7_Aceite_Adelgazante_Tejido_Adiposo.png"
-        },
-        {
             "titulo": "Aceite Estrías Blancas Reparador de Tejidos",
             "precio": "$ 20.000",
             "descripcion": "El Mágico Aceite Estrías Blancas donde nos concentramos en la regeneración celular y plantas atioxidantes. Requiere exfoliación durante el baño y constancia  en la aplicación. Productos 100% Naturales.",
@@ -85,6 +78,13 @@
             "descripcion": "Cada aceite esencial contiene las propiedades específicas de la planta de la que se obtiene, cuyos componentes químicos nos servirán para distintas finalidades. Un aceite esencial  puede ser sedante (jazmín) mientras que otro tiene capacidad para estimular el sistema nervioso (romero). Unos destacan por sus propiedades bactericidas (tomillo), mientras que otros tienen mayor capacidad analgésica (menta)...",
             "uso":"",
             "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/2_11_Aceites_Esenciales.png"
+        },
+        {
+            "titulo": "Aceite dolor cabeza cefalea migraña",
+            "precio": "$ 20.000 </br> Son 12 ACEITES ESENCIALES",
+            "descripcion": "Aceite con propiedades analgésicas, desinflamatorias, calmantes y para aliviar la tensión muscular. ",
+            "uso":"Máximo 3 veces al día, en la sien, cuello-hombros, nuca, tercer ojo, detrás de las orejas y en el inicio de las fosas nasales.",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/2_12_Aceite_dolor_cabeza_cefalea_migraña.png"
         }
 
     ]
