@@ -246,7 +246,7 @@ var data=`<div class="product-item " category="cremas">
          <img class="imagen" src="`+value.imagen+`" alt="" >
               <div class="ribbon-wrapper">
               <div class="ribbon-front">
-            <a class="px-1" href="#">`+value.titulo+`</a>
+            <a class="px-1" href="#"><h4>`+value.titulo+`</h4></a>
               </div>
              <div class="ribbon-edge-topleft"></div>
              <div class="ribbon-edge-topright"></div>
@@ -285,7 +285,7 @@ console.log('length '+j.aceite.length);
 
 for (let value of j.aceite) {
 
-var data=`<div class="product-item " category="aceites"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#">`+value.titulo+`</a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
+var data=`<div class="product-item " category="aceites"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#"><h4>`+value.titulo+`</h4></a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
  $("#aceite").append(data);
     data='';
 }
@@ -306,7 +306,7 @@ console.log('length '+j.jabon.length);
 
 for (let value of j.jabon) {
 
-var data=`<div class="product-item " category="jabones"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#">`+value.titulo+`</a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
+var data=`<div class="product-item " category="jabones"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#"><h4>`+value.titulo+`</h4></a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
  $("#jabon").append(data);
     data='';
 }
@@ -327,7 +327,7 @@ fetch('./datos/pomadas.json').then(function(respuesta) {
 console.log('length '+j.pomada.length);
 
 for (let value of j.pomada) {
-var data=`<div class="product-item " category="pomadas"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#">`+value.titulo+`</a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
+var data=`<div class="product-item " category="pomadas"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#"><h4>`+value.titulo+`</h4></a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
  $("#pomada").append(data);
     data='';
 }
@@ -346,7 +346,7 @@ fetch('./datos/bucal.json').then(function(respuesta) {
 console.log('length '+j.bucal.length);
 
 for (let value of j.bucal) {
-var data=`<div class="product-item " category="bucal"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#">`+value.titulo+`</a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
+var data=`<div class="product-item " category="bucal"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#"><h4>`+value.titulo+`</h4></a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
  $("#bucal").append(data);
     data='';
 }
@@ -367,7 +367,7 @@ fetch('./datos/shampoo.json').then(function(respuesta) {
 console.log('length '+j.shampoo.length);
 
 for (let value of j.shampoo) {
-var data=`<div class="product-item " category="shampoo"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#">`+value.titulo+`</a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
+var data=`<div class="product-item " category="shampoo"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#"><h4>`+value.titulo+`</h4></a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
  $("#shampoo").append(data);
     data='';
 }
@@ -383,7 +383,7 @@ fetch('./datos/tonicos.json').then(function(respuesta) {
 }).then(function(j) {
 
 for (let value of j.tonico) {
-var data=`<div class="product-item " category="tonicos"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#">`+value.titulo+`</a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
+var data=`<div class="product-item " category="tonicos"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#"><h4>`+value.titulo+`</h4></a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
  $("#tonico").append(data);
     data='';
 }
@@ -401,7 +401,7 @@ fetch('./datos/geles.json').then(function(respuesta) {
 }).then(function(j) {
 
 for (let value of j.gel) {
-var data=`<div class="product-item " category="geles"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#">`+value.titulo+`</a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
+var data=`<div class="product-item " category="geles"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#"><h4>`+value.titulo+`</h4></a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
  $("#gel").append(data);
     data='';
 }
@@ -419,7 +419,7 @@ fetch('./datos/solidos.json').then(function(respuesta) {
 }).then(function(j) {
 
 for (let value of j.solido) {
-var data=`<div class="product-item " category="solidos"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#">`+value.titulo+`</a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
+var data=`<div class="product-item " category="solidos"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#"><h4>`+value.titulo+`</h4></a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
  $("#solido").append(data);
     data='';
 }
