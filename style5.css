@@ -4,17 +4,17 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
 * {
-    /* font-family: 'Comic Neue', cursive; */
     /* font-family: 'Gotu', sans-serif; */
     /* font-family: 'Indie Flower', cursive; */
-     font-family: 'Poppins', sans-serif; 
-    
+    /* font-family: 'Poppins', sans-serif;  */
+    font-family: 'Comic Neue', cursive;
+
 }
 h3, h4{
-    /* font-family: 'Comic Neue', cursive; */
     /* font-family: 'Gotu', sans-serif; */
     /* font-family: 'Indie Flower', cursive; */
-    font-family: 'Poppins', sans-serif; 
+    /* font-family: 'Poppins', sans-serif;  */
+    font-family: 'Comic Neue', cursive;
 }
 
 body {
