@@ -213,6 +213,15 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d5f74d",endCo
     MEDIAQUERIES
 ----------------------------------------------------- */
 @media (max-width: 768px) {
+    * {
+
+        font-family: 'Comic Neue', cursive;
+    
+    }
+    h3, h4{
+
+        font-family: 'Comic Neue', cursive;
+    }
     #sidebar {
         margin-left: -140px;
         transform: rotateY(90deg);
