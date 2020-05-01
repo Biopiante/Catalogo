@@ -71,7 +71,7 @@ a, a:hover, a:focus {
 
 
 #sidebar {
-    z-index: 5;
+    z-index: 9;
     min-width: 158px;
     max-width: 250px;
     color: #fff;
@@ -214,6 +214,15 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d5f74d",endCo
     MEDIAQUERIES
 ----------------------------------------------------- */
 @media (max-width: 768px) {
+
+    .list-inline>li {
+        display: inline-block;
+        padding-right: 0px;
+        padding-left: 0px;
+        height: 60px;
+        padding-top: 3%;
+        padding-bottom: 2%;
+    }
 
     img.modal-content.recibir-imagen{
         width: 100% !important;
