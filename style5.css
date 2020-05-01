@@ -213,6 +213,15 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d5f74d",endCo
     MEDIAQUERIES
 ----------------------------------------------------- */
 @media (max-width: 768px) {
+
+    img.modal-content.recibir-imagen{
+        width: 100% !important;
+        margin-left: 0% !important;
+        margin-top: 47% !important;
+    
+    }
+
+
     #sidebar {
         margin-left: -140px;
         transform: rotateY(90deg);
