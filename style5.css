@@ -213,7 +213,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d5f74d",endCo
     MEDIAQUERIES
 ----------------------------------------------------- */
 @media (max-width: 768px) {
-<<<<<<< HEAD
 
     img.modal-content.recibir-imagen{
         width: 100% !important;
@@ -223,7 +222,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d5f74d",endCo
     }
 
 
-=======
     * {
 
         font-family: 'Comic Neue', cursive;
@@ -233,7 +231,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d5f74d",endCo
 
         font-family: 'Comic Neue', cursive;
     }
->>>>>>> 8f76678f6def1239a33b1fbe8c762d5f7701c21c
     #sidebar {
         margin-left: -140px;
         transform: rotateY(90deg);
