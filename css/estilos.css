@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,400&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
@@ -131,8 +133,8 @@ body{
 	/* background: rgb(213, 247, 77); */
 
 }
-.target{
-
+a.btn-floating.btn-lg.btn-fb {
+    color: white;
 }
 .target2.p-3 {
 	border-left: solid 2px rgb(213, 247, 77);
