@@ -66,25 +66,60 @@
             "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/2_9_Aceite_Dermatitis.png"
         },
         {
-            "titulo": "Tipos de Aceites",
-            "precio": "$ 25.000 - 25ml",
-            "descripcion": "Los aceites esenciales son sustancias que se encuentran en diferentes tejidos vegetales. Los antiguos alquimistas los llamaban “alma  de las plantas”, pues contienen numerosos compuestos químicos  naturales, procedentes de la  planta de la que se extraen, que  podemos utilizar como remedio en numerosas situaciones o para fines cosméticos",
-            "uso":"",
-            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/2_10_Tipos_de_Aceites.png"
-        },
-        {
-            "titulo": "Tipos de Aceites",
-            "precio": "$ 25.000 - 25ml",
-            "descripcion": "Cada aceite esencial contiene las propiedades específicas de la planta de la que se obtiene, cuyos componentes químicos nos servirán para distintas finalidades. Un aceite esencial  puede ser sedante (jazmín) mientras que otro tiene capacidad para estimular el sistema nervioso (romero). Unos destacan por sus propiedades bactericidas (tomillo), mientras que otros tienen mayor capacidad analgésica (menta)...",
-            "uso":"",
-            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/2_11_Aceites_Esenciales.png"
-        },
-        {
             "titulo": "Aceite dolor cabeza cefalea migraña",
             "precio": "$ 25.000  - 25ml </br> Son 12 ACEITES ESENCIALES",
             "descripcion": "Aceite con propiedades analgésicas, desinflamatorias, calmantes y para aliviar la tensión muscular. ",
             "uso":"Máximo 3 veces al día, en la sien, cuello-hombros, nuca, tercer ojo, detrás de las orejas y en el inicio de las fosas nasales.",
             "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/2_12_Aceite_dolor_cabeza_cefalea_migraña.png"
+        },
+        {
+            "titulo": "Aceite Morados Desinflamatorio",
+            "precio": "$ 25.000  - 25ml",
+            "descripcion": "Aceite 100% NATURAL con plantas desinflamatorias.  Para fuertes  golpes, hematomas, moratones y contusiones. ",
+            "uso":"Si el área afectada por el golpe no tiene una herida sangrante puedes proceder de inmediato a realizar un masaje circular con mínimas cantidades de producto puro",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/2_13_Aceite_morados_desinflamatorio.png"
+        },
+        {
+            "titulo": "Aceite Fibromialgia",
+            "precio": "$ 25.000  - 24ml",
+            "descripcion": "Aceite 100% NATURAL para dolores musculares, fatiga crónica.  Alivia dolor, ayuda con la inflamación en manos y pies, con la rigidez y el hormigueo.",
+            "uso":"Se usa en mínimas cantidades producto puro",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/2_14_Aceite_fibromialgia.png"
+        },
+        {
+            "titulo": "Aceite Psoriasis",
+            "precio": "$ 25.000  - 25ml",
+            "descripcion": "Aceite 100% NATURAL no irritante, nutritivo, hidratante, suaviza y elimina el picor. Aceite calmante, reparador y protector de la piel.  Ayuda a la piel tirante y a eliminar las escamas.  Reductor de las lesiones en la piel.  Rico en Antioxidantes",
+            "uso":"Se usa en mínimas cantidades en la zona afectada. Producto puro",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/2_15_Aceite_psoriasis.png"
+        },
+        {
+            "titulo": "Aceite Contorno ojos antioxidante",
+            "precio": "$ 25.000  - 25ml",
+            "descripcion": "Aceite 100% NATURAL potente antioxidante y reparador del tejido del contorno ojos. Regenerador celular, repara arrugas y lineas de expresión, patas de gallina, antiedad.",
+            "uso":"Se usa en mínimas cantidades producto puro",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/2_16_Aceite_contorno_ojos_antioxidante.png"
+        },
+        {
+            "titulo": "Aceite estrías rojas cicatrizante",
+            "precio": "$ 25.000  - 25ml",
+            "descripcion": "Aceite 100% NATURAL altamente cicatrizante y desinflamante.  Reparador de tejidos, regenerador celular. Requiere exfoliación durante el baño y constancia en la aplicación. Productos 100% Naturales. ",
+            "uso":"Se usa en mínimas cantidades puro",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/2_17_Aceite_estrias_rojas_cicatrizante.png"
+        },
+        {
+            "titulo": "Aceites enfermedades reumáticas",
+            "precio": "$ 25.000  - 25ml",
+            "descripcion": "Aceites analgésicos y potentes desinflamatorios.  Se hacen personalizados según la Enfermedad Reumática y así mismo se adicionan las plantas. Productos 100% Naturales.",
+            "uso":"Se usa en mínimas cantidades puro",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/2_18_Aceite_enfermedades_reumaticas.png"
+        },
+        {
+            "titulo": "Tipos de Aceites",
+            "precio": "$ 25.000 - 25ml",
+            "descripcion": "Los aceites esenciales son sustancias que se encuentran en diferentes tejidos vegetales. Los antiguos alquimistas los llamaban “alma  de las plantas”, pues contienen numerosos compuestos químicos  naturales, procedentes de la  planta de la que se extraen, que  podemos utilizar como remedio en numerosas situaciones o para fines cosméticos",
+            "uso":"Según sea el caso recomendación personalizada por ACEITE",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/2_10_Tipos_de_Aceites.png"
         }
 
     ]
