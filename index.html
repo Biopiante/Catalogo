@@ -156,6 +156,9 @@ body {
                         </li>
                         <li>
                           <a href="#" class="category_item" category="geles">Geles Aloe</a>
+                          <li>
+                            <a href="#" class="category_item" category="serum">Sérum</a>
+                        </li>
                           </li>
                         <li>
                             <a href="#" class="category_item" category="solidos">Sólidos</a>
@@ -200,6 +203,8 @@ body {
           <div class="row" id="tonico">
           </div>
           <div class="row" id="gel">
+          </div>
+          <div class="row" id="serum">
           </div>
           <div class="row" id="solido">
           </div>
@@ -422,6 +427,23 @@ var data=`<div class="product-item " category="geles"> <img class="imagen" src="
 }).catch(function(err) {
   console.log("Error gel"+err);
 });
+
+
+
+fetch('./datos/serum.json').then(function(respuesta) {
+  return respuesta.json();
+}).then(function(j) {
+
+for (let value of j.serum) {
+var data=`<div class="product-item " category="serum"> <img class="imagen" src="`+value.imagen+`" alt="" > <div class="ribbon-wrapper"> <div class="ribbon-front"> <a class="px-1" href="#"><h4>`+value.titulo+`</h4></a> </div> <div class="ribbon-edge-topleft"></div> <div class="ribbon-edge-topright"></div> <div class="ribbon-edge-bottomleft"></div> <div class="ribbon-edge-bottomright"></div> <div class="ribbon-back-left"></div> <div class="ribbon-back-right"></div> </div> <div class="p-3 target2"> <h4 class="py-2">`+value.precio+`</h4> <div class=""> <span>`+value.descripcion+`</span> <br><span class="font-weight-bold">USO: </span> `+value.uso+`</span> </div> </div> </div> </div>`;
+ $("#serum").append(data);
+    data='';
+}
+  console.log("content.crema[0].titulo= "+j.gel[0].titulo);
+}).catch(function(err) {
+  console.log("Error gel"+err);
+});
+
 
 
 // -------------------------------------------------
