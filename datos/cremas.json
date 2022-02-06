@@ -59,25 +59,33 @@
             "descripcion":"Crema magnífica para Nutrir e Hidratar, nunca más tendrás problemas de resequedad. Crema facial o corporal ",
             "uso": " Día. Dale el tiempo a la Crema de humectarse, penetra en la segunda capa de la piel. Mínimas cantidades producto completamente puro. Cuerpo: en el baño y con ayuda del agua",
             "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_8_Crema_Multipropiedades_Hidratante_y_Nutritiva.png"
+            
         },
         {
             "titulo": "Crema regeneradora hidratante PIES",
-            "precio": "$ 35.000",
-            "descripcion":"Crema xa casos extremos de resequedad ideal para pies, codos, rodillas ",
+            "precio": "$ 40.000",
+            "descripcion":"Crema para casos extremos de resequedad ideal para pies, talones agrietados y rodillas.  Suaviza y recobra la nutrición ",
             "uso": "Día y Noche.  Dale el tiempo a la Crema de humectarse, penetra en la segunda capa de la piel. Mínimas cantidades producto completamente puro",
             "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_9_Crema_regeneradora_hidratante_PIES.png"
         },
         {
+            "titulo": "Crema Adelgazante Tejido Adiposo",
+            "precio": "$ 40.000",
+            "descripcion":"Crema que remueve el tejido adiposo, ayudada del sistema circulatorio.  Evitar SOL en la zona que se aplica! ",
+            "uso": "Día y Noche.  Dale el tiempo a la Crema de humectarse, penetra en la segunda capa de la piel. Mínimas cantidades producto completamente puro",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_9_Crema_regeneradora_hidratante_PIES.png"
+        }, 
+        {
             "titulo": "Crema Hidratante MANOS",
-            "precio": "$ 35.000",
-            "descripcion":"Crema xa casos extremos de resequedad en las manos.  Hidratación profunda   ",
+            "precio": "$ 40.000",
+            "descripcion":"Crema para casos extremos de resequedad ideal para manos y codos agrietados.  Suaviza y recobra la nutrición profunda ",
             "uso": "Día y Noche.  Dale el tiempo a la Crema de humectarse, penetra en la segunda capa de la piel. Mínimas cantidades producto completamente puro",
             "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_10_Crema_Hidratante_MANOS.png"
         },
         {
             "titulo": "Crema VITILIGO restauradora ",
-            "precio": "$ 35.000",
-            "descripcion":"Crema milagrosa con propiedades estimulantes de melanina y pigmentación natural ",
+            "precio": "$ 40.000",
+            "descripcion":"Crema milagrosa que pigmenta la piel, estimula la melanina y el betacaroteno en la misma. ",
             "uso": "Día y Noche en la mancha BLANCA. Dale el tiempo a la Crema de humectarse, penetra en la segunda capa de la piel. Mínimas cantidades producto completamente puro",
             "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_11_Crema_VITILIGO_restauradora.png"
         }
