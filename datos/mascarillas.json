@@ -1,11 +1,46 @@
 {
     "mascarillas":[
         {
-            "titulo": "",
-            "precio": "$ ",
-            "descripcion":"",
-            "uso": "usos",
-            "imagen": ""
+            "titulo": "MASCARILLA ARCILLA AMARILLA Y PLANTAS",
+            "precio": "$ 30.000",
+            "descripcion":"Oxigena la piel, repara tejidos, brinda minerales ( Zinc-Cobre-Hierro & Potasio), desintoxica, para todo tipo de piel.",
+            "uso": "Una vez a la semana. Mezclar 1 cucharadita con  3 de agua o yogurth o leche. Aplicarla esperar sin hablar ni moverse 15 minutos. Remover con agua tibia y al final fria. Poner crema humectante Duración: 8 veces",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_1_Mascarilla_arcilla_amarilla.PNG"
+        },
+        {
+            "titulo": "MASCARILLA BLANCA KAOLIN Y PLANTAS",
+            "precio": "$ 30.000",
+            "descripcion":"Perfecta para bebés, ancianos y pieles alérgicas. Ideal para pieles secas y mates. Muy astringente, aporta luminosidad y también un efecto tensor, dejando la piel lisa y suave ya que elimina las toxinas y absorbe las células muertas de nuestra piel. ",
+            "uso": "Una vez a la semana. Mezclar 1 cucharadita con  3 de agua o yogurth o leche. Aplicarla esperar sin hablar ni moverse 15 minutos. Remover con agua tibia y al final fria. Poner crema humectante Duración: 8 veces",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_2_Mascarilla_arcilla_blanca_kaolin.PNG"
+        },
+        {
+            "titulo": "MASCARILLA GRIS & PLANTAS",
+            "precio": "$ 30.000",
+            "descripcion":"Elimina toxinas, purifica la piel absorción y pureza, desinflamante, reduce rojeces.  Pieles mixtas, grasas y Ideales para acné ",
+            "uso": "Una vez a la semana. Mezclar 1 cucharadita con  3 de agua o yogurth o leche. Aplicarla esperar sin hablar ni moverse 15 minutos. Remover con agua tibia y al final fria. Poner crema humectante Duración: 8 veces",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_3_Mascarilla_arcilla_gris.PNG"
+        },
+        {
+            "titulo": "MASCARILLA ROJA & PLANTAS",
+            "precio": "$ 30.000",
+            "descripcion":"Perfecta para piel seca y sensible, trae varios minerales. Debe su color a una mayor proporción de hierro que en las demás arcillas. Favorece la microcirculación de la sangre, limpia y purifica la piel ",
+            "uso": "Una vez a la semana. Mezclar 1 cucharadita con  3 de agua o yogurt o leche. Aplicarla esperar sin hablar ni moverse 15 minutos. Remover con agua tibia y al final fría. Poner crema humectante Duración: 8 veces",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_4_Mascarilla_arcilla_roja.PNG"
+        },
+        {
+            "titulo": "MASCARILLA NEGRA & PLANTAS",
+            "precio": "$ 30.000",
+            "descripcion":"Tiene propiedades que ayudan a remover la acumulación de las impurezas, para que la piel se sienta limpia. Su efecto detoxificante hará que su piel se sienta purificada! Es de origen volcánico. Se utiliza principalmente para desintoxicar las pieles grasas. Tiene propiedades anti-inflamatorias, anti-artrósicas, absorbentes y anti-estrés",
+            "uso": "Una vez a la semana. Mezclar 1 cucharadita con  3 de agua o yogurth o leche. Aplicarla esperar sin hablar ni moverse 15 minutos. Remover con agua tibia y al final fria. Poner crema humectante Duración: 8 veces",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_5_Mascarilla_arcilla_negra.PNG"
+        },
+        {
+            "titulo": "MASCARILLA HARINAS & PLANTAS",
+            "precio": "$ 30.000",
+            "descripcion":"Para nutrir e hidratar en profundidad, si tienes acné son perfectas. La harinas puede ser mezclada con otro producto como la leche, ya que ayuda a aclarar y rejuvenecer la piel y dejar mayor luminosidad Maravillosa para Arrugas, combatir signos de la edad, aclarante, cerrar poros! ",
+            "uso": "Una vez a la semana. Mezclar 1 cucharadita con  3 de agua o yogurth o leche. Aplicarla esperar sin hablar ni moverse 15 minutos. Remover con agua tibia y al final fría. Poner crema humectante Duración: 8 veces",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_6_Mascarilla_arcilla_harinas_plantas.PNG"
         }
 
     ]
