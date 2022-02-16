@@ -15,15 +15,22 @@
             "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/6_2_Shampoo_solido_Aceite_de_coco.png?raw=true"
         },
         {
+            "titulo": "Shampoo Seco",
+            "precio": "$ 30.000 Normal </br> $ 35.000 Gigante  ",
+            "descripcion": "Es bueno en pelos grasos, elimina el exceso y lo regula. Combate problemas capilares y mejora la apariencia de tu pelo. Fija perfectamente los rizos, repara los daños en el pelo maltratado, ayuda a alisar, aporta brillo, suavidad, hidratación y manejo del pelo.  Crisis de frizz te facilitará el peinado. Evita caída y acelera el crecimiento del pelo ",
+            "uso": "Espolvorear una pequeña cantidad sobre el cuero cabelludo, eliminar residuos con toalla.",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/6_2_Shampoo_solido_Aceite_de_coco.png?raw=true"
+        },
+        {
             "titulo": "Acondicionador crema multivitaminica",
-            "precio": "$ 25.000 Normal </br> $ 30.000 Grande ",
-            "descripcion": "Crema xa untar que desenreda y te regala: brillo, suavidad, nutrición, fortalecimiento, abundancia, hidratación, crecimiento y espesor, ayuda con caída y dobles puntas. Y todo gracias a las propiedades de las plantas y los Aceites Esenciales que nosotros mismos extraemos.",
+            "precio": "$ 30.000 Normal </br> $ 35.000 Grande ",
+            "descripcion": "Crema para untar que desenreda y te regala: brillo, suavidad, nutrición, fortalecimiento, abundancia, hidratación, crecimiento y espesor, ayuda con caída y dobles puntas. Y todo gracias a las propiedades de las plantas y los Aceites Esenciales que nosotros mismos extraemos.",
             "uso": "Mínimas cantidades producto puro, pelo mojado y seco",
             "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/6_3_Acondicionador_crema_multivitaminica.png?raw=true"
         },
         {
             "titulo": "Tratamiento Jungla capilar",
-            "precio": "$ 15.000 Shampoo Sólido </br> $ 25.000 Acondicionador multivitaminico",
+            "precio": "$ 15.000 Shampoo Sólido </br> $ 30.000 Acondicionador & Crema para untar multivitaminica",
             "descripcion": "Tónico Restaurador Capilar $ 20.000   Prueba nuestro maravilloso tratamiento capilar 100% NATURAL que se prepara personalizado.  Cuál es tu problema caspa, crecimiento, grasa, dobles puntas, resequedad, crecimiento, caída grosor, multivitaminico, dermatitis, psoriasis, delicado, alergico ? Sumérgete en lo NATURAL",
             "uso": "",
             "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/6_4_Tratamiento_Jungla_capilar.png?raw=true"
