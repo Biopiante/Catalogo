@@ -5,7 +5,7 @@
             "precio": "$ 40.000",
             "descripcion": "Antioxidante y regenerativa que te hará un EFECTO BOTOX NATURAL, quitando líneas y arrugas. Regeneración celular, aporte colágeno y elastina.",
             "uso": "Día y Noche Dale el tiempo a la Crema de humectarse, penetra en la segunda capa de la piel. Mínimas cantidades producto completamente puro. Requiere constancia",
-            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_1_Crema_Restauradora_Reafirmante_Arrugas.png"
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/C. Arrugas.PNG"
         
         },
         {
@@ -13,7 +13,7 @@
             "precio": "$ 40.000",
             "descripcion": "Crema muy potente que ha quitado manchas de 30 años, blanquea, quita pecas, manchas rojas, cafés, negras.",
             "uso": "Nocturno por sus materiales vegetales fotosensibles. Minimas cantidades producto completamente puro. Requiere constancia",
-            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_2_Crema_Desmanchadora_Blanqueadora_NOCHE.png"
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/C. Manchas.PNG"
         
         },
         {
@@ -21,7 +21,7 @@
             "precio": "$ 40.000",
             "descripcion": "Crema con plantas para el sistema circulatorio y para eliminar la bacteria que produce la celulitis",
             "uso": "En la ducha, después de exfoliación y antes de secarse con ayuda del agua. Minimas cantidades producto completamente puro",
-            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_3_Crema_Celulitis_con_Estropajo_y_Gr%C3%A1nulo.png"
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/C. Celulitis.PNG"
         
         },
         {
@@ -29,7 +29,7 @@
             "precio": "$ 40.000",
             "descripcion": "Excelente crema restauradora de tejidos, se concentra en la regeneración celular y va plantas atioxidantes",
             "uso": "En la ducha, después de exfoliación y antes de secarse con ayuda del agua. Minimas cantidades producto completamente puro. Requiere constancia en la aplicación",
-            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_4_Crema_Regeneradora_Estrias_Blancas.png"
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/C. Estrias Blancas.PNG"
         
         },
         {
@@ -37,28 +37,28 @@
             "precio": "$ 40.000",
             "descripcion": "Crema Sorprendente que no sólo restaura tejidos sino ayuda en su proceso de cicatrización y desinflamación. ",
             "uso": "En la ducha, después de exfoliación y antes de secarse con ayuda del agua. Minimas cantidades producto completamente puro. Requiere constancia en la aplicación ",
-            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_5_Crema_Restauradora_Estrias_Rojas.png"
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/C. Estrias Rojas.PNG"
         },
         {
             "titulo": "Crema pieles jóvenes hidratadas",
             "precio": "$ 40.000",
             "descripcion": " Crema sorprendente que mantendrá tu brillo y suavidad natural, nutrirá e hidratará sin engrasar la piel. ",
             "uso": "Día y Noche Dale el tiempo a la Crema de humectarse, penetra en la segunda capa de la piel.  Mínimas cantidades producto completamente puro",
-            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_6_Crema_pieles_j%C3%B3venes_hidratadas.png"
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/C. Piel Jóven.PNG"
         },
         {
             "titulo": "Crema Barros y Espinillas",
             "precio": "$ 40.000",
             "descripcion":"Crema sorprendente con sus propiedades de limpieza, cicatrizante, desinflamante, microbiana y bactericida.",
             "uso": "Día.  Dale el tiempo a la Crema de humectarse, penetra en la segunda capa de la piel. Mínimas cantidades producto completamente puro",
-            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_7_Crema_Barros_y_Espinillas.png"
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/C. Acné.PNG"
         },
         {
             "titulo": "Crema Multipropiedades Hidratante y Nutritiva",
             "precio": "$ 40.000",
             "descripcion":"Crema magnífica para Nutrir e Hidratar, nunca más tendrás problemas de resequedad. Crema facial o corporal ",
             "uso": " Día. Dale el tiempo a la Crema de humectarse, penetra en la segunda capa de la piel. Mínimas cantidades producto completamente puro. Cuerpo: en el baño y con ayuda del agua",
-            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_8_Crema_Multipropiedades_Hidratante_y_Nutritiva.png"
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/C. Multipropiedades.PNG"
             
         },
         {
@@ -66,28 +66,28 @@
             "precio": "$ 40.000",
             "descripcion":"Crema para casos extremos de resequedad ideal para pies, talones agrietados y rodillas.  Suaviza y recobra la nutrición ",
             "uso": "Día y Noche.  Dale el tiempo a la Crema de humectarse, penetra en la segunda capa de la piel. Mínimas cantidades producto completamente puro",
-            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_9_Crema_regeneradora_hidratante_PIES.png"
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/C. Pies.PNG"
         },
         {
             "titulo": "Crema Adelgazante Tejido Adiposo",
             "precio": "$ 40.000",
             "descripcion":"Crema que remueve el tejido adiposo, ayudada del sistema circulatorio.  Evitar SOL en la zona que se aplica! ",
             "uso": "Día y Noche.  Dale el tiempo a la Crema de humectarse, penetra en la segunda capa de la piel. Mínimas cantidades producto completamente puro",
-            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_13_Crema_adelgazante_tejido_adiposo.jpeg"
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/C. Adelgazante.PNG"
         }, 
         {
             "titulo": "Crema Hidratante MANOS",
             "precio": "$ 40.000",
             "descripcion":"Crema para casos extremos de resequedad ideal para manos y codos agrietados.  Suaviza y recobra la nutrición profunda ",
             "uso": "Día y Noche.  Dale el tiempo a la Crema de humectarse, penetra en la segunda capa de la piel. Mínimas cantidades producto completamente puro",
-            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_10_Crema_Hidratante_MANOS.png"
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/C. Manos.PNG"
         },
         {
             "titulo": "Crema VITILIGO restauradora ",
             "precio": "$ 40.000",
             "descripcion":"Crema milagrosa que pigmenta la piel, estimula la melanina y el betacaroteno en la misma. ",
             "uso": "Día y Noche en la mancha BLANCA. Dale el tiempo a la Crema de humectarse, penetra en la segunda capa de la piel. Mínimas cantidades producto completamente puro",
-            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_11_Crema_VITILIGO_restauradora.png"
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/C. Vitiligo.PNG"
         },
         {
             "titulo": "Crema DESODORANTE 100% NATURAL ",
