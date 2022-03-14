@@ -1,6 +1,34 @@
 {
     "gel":[
         {
+            "titulo": "Exfoliante SOLIDO Café",
+            "precio": "$ 15.000 ",
+            "descripcion":"Celulitis, Grasa, Sistema Circulatorio. Antioxidante, antiséptico, desinfectante. ",
+            "uso": "Humedecer zona y pasar barra con movimientos circulares. 2 veces a la semana",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/8_1_Gel_Antibacteriano_ALOE.png?raw=true"
+        },
+        {
+            "titulo": "Exfoliante SOLIDO Pies",
+            "precio": "$ 15.000 ",
+            "descripcion":"Antifúngicida, micótivo. Suaviza, Hidrata en profundidad, quita células muertas. ",
+            "uso": "Humedecer zona y pasar barra con movimientos circulares. 2 veces a la semana",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/8_1_Gel_Antibacteriano_ALOE.png?raw=true"
+        },
+        {
+            "titulo": "Exfoliante SOLIDO Cuerpo",
+            "precio": "$ 15.000 ",
+            "descripcion":"Suavidad, luminosidad, limpieza poros y piel muerta. Piel Radiente, aliado de la depilación ",
+            "uso": "Humedecer zona y pasar barra con movimientos circulares. 2 veces a la semana",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/8_1_Gel_Antibacteriano_ALOE.png?raw=true"
+        },
+        {
+            "titulo": "Exfoliante SOLIDO Facial",
+            "precio": "$ 15.000 ",
+            "descripcion":"Epidermis limpia impurezas, aporta uniformidad, tonicidad, suavidad y luminosidad; prevenir y reduce la aparición de suciedad, renueva la piel. Atienvejecimiento. Luce un cutis sano. ",
+            "uso": "Humedecer zona y pasar barra con movimientos circulares. 1 vez a la semana",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/8_1_Gel_Antibacteriano_ALOE.png?raw=true"
+        },
+        {
             "titulo": "Gel Antibacteriano ALOE",
             "precio": "$ 10.000 ",
             "descripcion":"Gel Aloé antiséptico bactericida, microbiano, antiviral. Con propiedades nutritivas e hidratantes. 80% ALoe Vera: vitaminas, minerales, antiinflamatorio, cicatrizante, bactericida de adentro hacia afuera. ",
@@ -10,14 +38,14 @@
         {
             "titulo": "Gel exfoliante sistema circulatorio",
             "precio": "$ 25.000 Pequeño 28ml </br> $ 30.000 Grande 32ml ",
-            "descripcion":"Gel 80% Aloé con gránulos en su interior efecto exfoliante xa reactivar el sistema circulatorio, ayudar con celulitis, reafirmante, desinfectante y hasta analgésico !!!!  ",
+            "descripcion":"Gel 80% Aloé con gránulos en su interior efecto exfoliante para reactivar el sistema circulatorio, ayudar con celulitis, reafirmante, desinfectante y hasta analgésico !!!!  ",
             "uso": "Noches. Poco producto en las manos, masajear en movimientos circulares y permitir al producto su penetración, no lavar. Mínimas cantidades producto puro",
             "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/8_2_Gel_exfoliante_sistema_circulatorio.png?raw=true"
         },
         {
             "titulo": "Gel Limpiador Impurezas",
-            "precio": "$ 25.000 Pequeño 28ml </br> $30.000 Grande 32ml",
-            "descripcion":"Gel 80% Aloé con plantas en su interior antisépticas, tonificantes, xa vias respiratorias, calmantes, relajantes, astringentes, limpiadoras, analgésicas y antiinflamatorias. ",
+            "precio": "$ 25.000 Pequeño 28ml </br> $ 30.000 Grande 32ml",
+            "descripcion":"Gel 80% Aloé con plantas en su interior antisépticas, tonificantes, para vias respiratorias, calmantes, relajantes, astringentes, limpiadoras, analgésicas y antiinflamatorias. ",
             "uso": "Poco producto en las manos, masajear en movimientos circulares y permitir al producto su penetración, no lavar. Mínimas cantidades producto puro",
             "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/8_3_Gel_Limpiador_Impurezas.png?raw=true"
         }
