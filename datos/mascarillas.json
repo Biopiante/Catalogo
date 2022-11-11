@@ -1,6 +1,20 @@
 {
     "mascarillas":[
         {
+            "titulo": "MASCARILLA DETOX AXILAS",
+            "precio": "$ 30.000",
+            "descripcion":"Limpia de impurezas, desintoxica la piel, optimiza el sistema linfático, aclaradora, reduce sudoración.",
+            "uso": "Una vez a la semana. Mezclar 1 cucharadita con  3 de agua o vinagre adicionar 5 gotas de limón. Aplicarla esperar. Remover con agua tibia y al final fria. Poner crema humectante Duración: 8 veces",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_1_Mascarilla_arcilla_amarilla.PNG"
+        },
+        {
+            "titulo": "MASCARILLA DENTAL BLANQUEADORA",
+            "precio": "$ 30.000",
+            "descripcion":"Dentadura libre de enfermedades. Antiviral, antibacteriano, antimicótico y desintoxicante.",
+            "uso": "Una vez a la semana. Mezclar 1 cucharadita con 1 de agua. Humedecer cepillo y aplicar como lavado NORMAL. Duración: 8 veces",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/1_1_Mascarilla_arcilla_amarilla.PNG"
+        },
+        {
             "titulo": "MASCARILLA ARCILLA AMARILLA Y PLANTAS",
             "precio": "$ 30.000",
             "descripcion":"Oxigena la piel, repara tejidos, brinda minerales ( Zinc-Cobre-Hierro & Potasio), desintoxica, para todo tipo de piel.",
