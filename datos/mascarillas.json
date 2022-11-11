@@ -14,6 +14,13 @@
             "uso": "Una vez a la semana. Mezclar 1 cucharadita con 1 de agua. Humedecer cepillo y aplicar como lavado NORMAL. Duración: 8 veces",
             "imagen": "https://github.com/Biopiante/Catalogo/blob/gh-pages/images/masc%20DIENTES3.jpg"
         },
+        {   
+            "titulo": "MASCARILLA CAPILAR",
+            "precio": "$ 30.000",
+            "descripcion":"Tiene poder de revitalizar, hidratar intensamente, suavizar y desenredar. Anticaspa, Dermatitis, Alopecia. Elimina toxinas, limpia renueva celularmente",
+            "uso": "Una vez a la semana. Mezclar 1 cucharadita con  3 de agua o Aceite. Aplicarla esperar 15 minutos. Remover con agua tibia y lavar. Duración: 8 veces",
+            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/MASCARILLA Capilar.png"
+        },
         {
             "titulo": "MASCARILLA ARCILLA AMARILLA Y PLANTAS",
             "precio": "$ 30.000",
@@ -55,13 +62,6 @@
             "descripcion":"Purifica, absorbe las toxinas de la piel, evitando la proliferación de bacterias. Lo que la hace perfecta para limpiar y tratar profundamente pieles mixtas y grasas. Refina la textura de la piel, desintoxicándola y purificándola ",
             "uso": "Una vez a la semana. Mezclar 1 cucharadita con  3 de agua o yogurth o leche. Aplicarla esperar sin hablar ni moverse 15 minutos. Remover con agua tibia y al final fria. Poner crema humectante Duración: 8 veces",
             "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/MASCARILLA VERDE.png"
-        },
-        {   
-            "titulo": "MASCARILLA CAPILAR",
-            "precio": "$ 30.000",
-            "descripcion":"Tiene poder de revitalizar, hidratar intensamente, suavizar y desenredar. Anticaspa, Dermatitis, Alopecia. Elimina toxinas, limpia renueva celularmente",
-            "uso": "Una vez a la semana. Mezclar 1 cucharadita con  3 de agua o Aceite. Aplicarla esperar 15 minutos. Remover con agua tibia y lavar. Duración: 8 veces",
-            "imagen": "https://raw.githubusercontent.com/Biopiante/Catalogo/gh-pages/images/MASCARILLA Capilar.png"
         },
         {    
             "titulo": "MASCARILLA HARINAS & PLANTAS",
